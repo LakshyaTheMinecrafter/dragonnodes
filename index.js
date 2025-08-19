@@ -263,12 +263,8 @@ app.get('/dashboard', isLoggedIn, async (req, res) => {
     });
 });
 
-/*
+
 // --- 7. START THE SERVER ---
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
-
 });
-*/
-// --- 7. EXPORT APP (for Vercel) ---
-module.exports = app;
